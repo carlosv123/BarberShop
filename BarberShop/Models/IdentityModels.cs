@@ -20,6 +20,14 @@ namespace BarberShop.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Payment> Payments { get; set; }
+        public DbSet<PaymentType> PaymentTypes { get; set; }
+        public DbSet<BarberShop> Barbershops { get; set; }
+        public DbSet<Barber> Barbers { get; set; }
+        public DbSet<Earnings> EarnigngS { get; set; }
+        public DbSet<Schedule> Schedules { get; set; }
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {

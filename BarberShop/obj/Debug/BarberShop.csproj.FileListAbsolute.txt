@@ -67,3 +67,5 @@ C:\Users\vasqu\Desktop\BarberShop\BarberShop\bin\Microsoft.Owin.Security.Microso
 C:\Users\vasqu\Desktop\BarberShop\BarberShop\obj\Debug\BarberShop.csprojResolveAssemblyReference.cache
 C:\Users\vasqu\Desktop\BarberShop\BarberShop\obj\Debug\BarberShop.dll
 C:\Users\vasqu\Desktop\BarberShop\BarberShop\obj\Debug\BarberShop.pdb
+C:\Users\vasqu\Desktop\BarberShop\BarberShop\obj\Debug\BarberShop.Migrations.Models.resources
+C:\Users\vasqu\Desktop\BarberShop\BarberShop\obj\Debug\BarberShop.csproj.GenerateResource.Cache
