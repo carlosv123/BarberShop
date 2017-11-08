@@ -141,7 +141,11 @@ namespace BarberShop.Controllers
         [AllowAnonymous]
         public ActionResult Register()
         {
-            return View();
+            ViewBag.Name = new SelectList(context.Roles.Where(u => !u.Name.Contains("Admin")).ToList(), "Name", "Name");
+            RegisterViewModel model = new RegisterViewModel();
+            model.UserRoles = "Barber";
+            model.UserRoles = "Customer";
+            return View(model);
         }
 
         //
@@ -167,6 +171,7 @@ namespace BarberShop.Controllers
 
                     return RedirectToAction("Index", "Home");
                 }
+                ViewBag.Name = new SelectList(context.Roles.Where(u => !u.Name.Contains("Admin")).ToList(), "Name", "Name");
                 AddErrors(result);
             }
 

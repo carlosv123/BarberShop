@@ -69,3 +69,4 @@ C:\Users\vasqu\Desktop\BarberShop\BarberShop\obj\Debug\BarberShop.dll
 C:\Users\vasqu\Desktop\BarberShop\BarberShop\obj\Debug\BarberShop.pdb
 C:\Users\vasqu\Desktop\BarberShop\BarberShop\obj\Debug\BarberShop.Migrations.Models.resources
 C:\Users\vasqu\Desktop\BarberShop\BarberShop\obj\Debug\BarberShop.csproj.GenerateResource.Cache
+C:\Users\vasqu\Desktop\BarberShop\BarberShop\obj\Debug\BarberShop.Migrations.UserRoles.resources

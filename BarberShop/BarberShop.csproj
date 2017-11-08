@@ -177,6 +177,10 @@
     <Compile Include="Migrations\201711070946185_Models.Designer.cs">
       <DependentUpon>201711070946185_Models.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201711080617341_UserRoles.cs" />
+    <Compile Include="Migrations\201711080617341_UserRoles.Designer.cs">
+      <DependentUpon>201711080617341_UserRoles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Barber.cs" />
@@ -262,6 +266,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201711070946185_Models.resx">
       <DependentUpon>201711070946185_Models.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201711080617341_UserRoles.resx">
+      <DependentUpon>201711080617341_UserRoles.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
